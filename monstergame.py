@@ -1,5 +1,5 @@
 openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
-
+The room you are currently in has tunnel entrances in the south, east and west.
 Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
 But beware, the boss is a very challenging opponent who should not be taken lightly.
 If you try to attack it or any other monsters with a weapon that is not strong enough, the monster will take your weapon and kill you.
