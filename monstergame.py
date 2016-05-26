@@ -9,7 +9,7 @@ In some rooms there are key which can be used to open locked doors or weapons to
 Good Luck!""")
 
 bluePossesion = 0
-if openingStory == N:
+if openingStory == "N":
     openingStory = input("There is a solid stone wall. You cannot go North.")
 if openingStory == S:
     weaponRoom1 = input("""You travel through a tunnel and eventually come to a room with a chest in one corner. 
