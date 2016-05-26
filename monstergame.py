@@ -23,5 +23,9 @@ if openingStory == "S":
     if weaponRoom1 == "O":
         openChest = input("  
 if openingStory == "E":
-    emptyRoom1 == 
+    emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
+    Press O to try to open the door""")
+if openingStory == "W":
+    put blue key in this room
+if openingStory != "N", "S", "E", "W":
     
