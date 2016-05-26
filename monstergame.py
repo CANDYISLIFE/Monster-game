@@ -28,4 +28,4 @@ if openingStory == "E":
 if openingStory == "W":
     put blue key in this room
 if openingStory != "N", "S", "E", "W":
-    
+    openingStory = input("That is not an option. Please enter a command.")
