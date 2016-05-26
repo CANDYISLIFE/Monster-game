@@ -6,6 +6,8 @@ If you type in N, S, E, or W, you will leave the room in the direction you type.
 every direction because there is a wall of locked door. The boss room is in the south-east corner of the map. 
 In some rooms there are key which can be used to open locked doors or weapons to kill monsters. Good Luck!""")
 
+bluePossesion = 0
 if openingStory == N:
     openingStory = input("There is a solid stone wall. You cannot go North.")
-if openingStory
+if openingStory == S:
+    weaponRoom1 = input("You travel through a t
