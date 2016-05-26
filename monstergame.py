@@ -1,3 +1,7 @@
+"""
+the map of this gameis in the outside ocket of my bag
+"""
+
 openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
 The room you are currently in has tunnel entrances in the south, east and west.
 Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
