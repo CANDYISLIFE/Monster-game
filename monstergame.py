@@ -1,5 +1,5 @@
 """
-the map of this gameis in the outside ocket of my bag
+the map of this gameis in the outside pocket of my bag
 """
 
 openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
