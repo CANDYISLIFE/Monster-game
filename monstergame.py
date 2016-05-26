@@ -11,7 +11,7 @@ Good Luck!""")
 bluePossesion = 0
 if openingStory == "N":
     openingStory = input("There is a solid stone wall. You cannot go North.")
-if openingStory == S:
+if openingStory == "S":
     weaponRoom1 = input("""You travel through a tunnel and eventually come to a room with a chest in one corner. 
     The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
     unlocked. Press O to open the box.""")
