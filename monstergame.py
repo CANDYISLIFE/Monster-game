@@ -34,7 +34,6 @@ if openingStory == "S":
         The looters missed something! There is a bronze sword hidden in the lining!
         This will help you defend yourself against monsters or looters if they come back."""
         bronzeSword = 1
-        
 if openingStory == "E":
     emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
     Press O to try to open the door""")
@@ -42,3 +41,14 @@ if openingStory == "W":
     put blue key in this room
 if openingStory != "N", "S", "E", "W":
     openingStory = input("That is not an option. Please enter a command.")
+if weaponRoom1 == "N":
+    openingStory = input("You are back in the room where you started. Please choose N, S, E or W.")
+if weaponRoom1 == "S":
+    weaponRoom1 == input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if weaponRoom1 == "E":
+    weaponRoom1 == input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if weaponRoom1 == "W":
+    emptyRoom2 = input("You are in an empty room with tunnel entrances to the north and east.")
+if weaponRoom1 != "N", "S", "E", "W", "O":
+    weaponRoom1 = input("That is not an option. Please enter a command.")
+    
