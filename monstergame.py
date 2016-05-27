@@ -40,10 +40,10 @@ if openingStory == "E":
 if openingStory == "W":
     blueKey = input("""You pass through the tunnel and end up in a room with a blue key on a pedestal in the center or the room.
     Press O to pick up blue key.""")
-        if blueKey == "O":
-            blueKey = input("You now have the blue key in your inventory")
-            bluePossesion = 1
-if openingStory != "N", "S", "E", "W":
+    if blueKey == "O":
+        blueKey = input("You now have the blue key in your inventory")
+        bluePossesion = 1
+if openingStory != "N" or "S" or "E" or "W":
     openingStory = input("That is not an option. Please enter a command.")
 if weaponRoom1 == "N":
     openingStory = input("You are back in the room where you started. Please choose N, S, E or W.")
@@ -53,6 +53,6 @@ if weaponRoom1 == "E":
     weaponRoom1 == input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
 if weaponRoom1 == "W":
     emptyRoom2 = input("You are in an empty room with tunnel entrances to the north and east.")
-if weaponRoom1 != "N", "S", "E", "W", "O":
+if weaponRoom1 != "N" or "S" or "E" or "W" or "O":
     weaponRoom1 = input("That is not an option. Please enter a command.")
     
