@@ -3,6 +3,7 @@ the map of this gameis in the outside pocket of my bag
 """
 
 openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
+You are armed with only the clothes on your back, a small folding knife, and your wits.
 The room you are currently in has tunnel entrances in the south, east and west.
 Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
 But beware, the boss is a very challenging opponent who should not be taken lightly.
@@ -25,7 +26,12 @@ if openingStory == "S":
     The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
     unlocked. Press O to open the box.""")
     if weaponRoom1 == "O":
-        openChest = input("  
+        openChest = input("""You pull off the lock and throw back the lid of the chest. 
+        It is richly upholstered in velvet, but is completly empty. 
+        The people who broke the lid off also took everything inside of it.
+        Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
+        You pull out your knife and cut around it. 
+        The looters missed something! 
 if openingStory == "E":
     emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
     Press O to try to open the door""")
