@@ -26,13 +26,15 @@ if openingStory == "S":
     The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
     unlocked. Press O to open the box.""")
     if weaponRoom1 == "O":
-        openChest = input("""You pull off the lock and throw back the lid of the chest. 
+        weaponRoom1 = input("""You pull off the lock and throw back the lid of the chest. 
         It is richly upholstered in velvet, but is completly empty. 
         The people who broke the lid off also took everything inside of it.
         Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
         You pull out your knife and cut around it. 
         The looters missed something! There is a bronze sword hidden in the lining!
         This will help you defend yourself against monsters or looters if they come back."""
+        bronzeSword = 1
+        
 if openingStory == "E":
     emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
     Press O to try to open the door""")
