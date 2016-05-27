@@ -32,13 +32,17 @@ if openingStory == "S":
         Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
         You pull out your knife and cut around it. 
         The looters missed something! There is a bronze sword hidden in the lining!
-        This will help you defend yourself against monsters or looters if they come back."""
+        This will help you defend yourself against monsters or looters if they come back.""")
         bronzeSword = 1
 if openingStory == "E":
     emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
     Press O to try to open the door""")
 if openingStory == "W":
-    put blue key in this room
+    blueKey = input("""You pass through the tunnel and end up in a room with a blue key on a pedestal in the center or the room.
+    Press O to pick up blue key.""")
+        if blueKey == "O":
+            blueKey = input("You now have the blue key in your inventory")
+            bluePossesion = 1
 if openingStory != "N", "S", "E", "W":
     openingStory = input("That is not an option. Please enter a command.")
 if weaponRoom1 == "N":
