@@ -76,7 +76,7 @@ if emptyRoom2 == "N":
 if emptyRoom2 == "S":
     emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
 if emptyRoom2 == "E":
-    if bronzeSword = 0:
+    if bronzeSword == 0:
         weaponRoom1 = input("""You travel through a tunnel and eventually come to a room with a chest in one corner. 
     The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
     unlocked. Press O to open the box.""")
