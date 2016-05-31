@@ -94,6 +94,8 @@ if emptyRoom2 == "E":
         bronzeSword = 1
     else:
         weaponRoom1 = input("You are in a room with an open empty chest in one corner. There are entrances to the north and west.")
-            
 if emptyRoom2 == "W":
      emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if openingStory == "E":
+    emptyRoom1 = input("""You are in a room with a tunnel entrance on the west side and a locked blue door to the south.
+    Press O to try and open the door.""")
