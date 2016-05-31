@@ -14,6 +14,9 @@ The boss room is in the south-east corner of the map.
 In some rooms there are key which can be used to open locked doors or weapons to kill monsters. 
 Good Luck!""")
 
+weaponRoom1 = " "
+blueKey = " "
+emptyRoom2 = " " 
 bluePossesion = 0
 goldPossesion = 0
 bronzeSword = 0
