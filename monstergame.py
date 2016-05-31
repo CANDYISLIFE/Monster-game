@@ -18,6 +18,7 @@ weaponRoom1 = " "
 blueKey = " "
 emptyRoom2 = " " 
 emptyRoom1 = " "
+monsterRoom1 = " "
 bluePossesion = 0
 goldPossesion = 0
 bronzeSword = 0
