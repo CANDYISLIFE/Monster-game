@@ -40,7 +40,7 @@ if openingStory == "S":
         bronzeSword = 1
 if openingStory == "E":
     emptyRoom1 == input("""There is a tunnel in the west and a locked blue door in the south. 
-    Press O to try to open the door""")
+Press O to try to open the door""")
 if openingStory == "W":
     blueKey = input("""You pass through the tunnel and end up in a room with a blue key on a pedestal in the center or the room.
     Press O to pick up blue key.""")
@@ -97,6 +97,9 @@ if emptyRoom2 == "E":
         weaponRoom1 = input("You are in a room with an open empty chest in one corner. There are entrances to the north and west.")
 if emptyRoom2 == "W":
      emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
-if openingStory == "E":
-    emptyRoom1 = input("""You are in a room with a tunnel entrance on the west side and a locked blue door to the south.
-    Press O to try and open the door.""")
+if emptyRoom1 == "O":
+    if bluePossesion = 1:
+        
+    else:
+        emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
+Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
