@@ -59,4 +59,15 @@ if blueKey == "E":
     openingStory = input("You are back in the room where you started. Please choose N, S, E or W.")
 if blueKey == "W":
     blueKey = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if blueKey == "N":
+    blueKey = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if blueKey == "S":
+    emptyRoom2 = input("You are in an empty room with tunnel entrances to the north and east.")
+if emptyRoom2 == "N":
     
+if emptyRoom2 == "S":
+    emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
+if emptyRoom2 == "E":
+
+if emptyRoom2 == "W":
+     emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
