@@ -74,9 +74,9 @@ if emptyRoom2 == "N":
     else:
         blueKey = input("""You pass through the tunnel and end up in a room with a blue key on a pedestal in the center or the room.
     Press O to pick up blue key.""")
-    if blueKey == "O":
-        blueKey = input("You now have the blue key in your inventory.")
-        bluePossesion = 1
+        if blueKey == "O":
+            blueKey = input("You now have the blue key in your inventory.")
+            bluePossesion = 1
         
 if emptyRoom2 == "S":
     emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
