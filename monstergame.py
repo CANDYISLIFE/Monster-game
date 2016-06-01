@@ -100,7 +100,11 @@ if emptyRoom2 == "W":
      emptyRoom2 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
 if emptyRoom1 == "O":
     if bluePossesion == 1:
-        monsterRoom1 =
+        monsterRoom1 = input("""You insert the key into the door on the south wall and turn. 
+    There is a clanking inside the door and it slowly swings open.
+    Echoing from the tunnel is a scraping noise. As the door opens, the scraping stops.
+    Then you hear a roar from whatever lurks in the next room. 
+    Proceed with caution.""")
     else:
         emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
 Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
