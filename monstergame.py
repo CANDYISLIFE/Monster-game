@@ -107,13 +107,16 @@ while endKey != 1:
         There is a clanking inside the door and it slowly swings open.
         Echoing from the tunnel is a scraping noise. As the door opens, the scraping stops.
         Then you hear a roar from whatever lurks in the next room. 
-        Proceed with caution.""")
+        Proceed with caution. Press O to attack whatever lies ahead.""")
         else:
             emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
     Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
     if emptyRoom1 == "W":
         openingStory = input("You are back in the room where you started")
-
+    if monsterRoom1 == "O":
+        if bronzeSword == 1:
+            monsterRoom1 = input("""You charge forward into the room. In the center is a hideous beast.
+            It has 
 '''
 D = ' ' 
 while D != "Done":    
