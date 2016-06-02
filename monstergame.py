@@ -109,3 +109,15 @@ if emptyRoom1 == "O":
         emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
 Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
 '''
+
+A = ' '
+B = ' '
+C = input("C")
+if C == "N":
+    B = input("B")
+if B == "N":
+    A = input("A")
+if B == "S":
+    C = input("C")
+if A = "S":
+    B = input("B")
