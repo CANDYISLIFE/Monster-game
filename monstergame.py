@@ -1,6 +1,6 @@
-"""
+'''
 the map of this gameis in the outside pocket of my bag
-"""
+
 
 openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
 You are armed with only the clothes on your back, a small folding knife, and your wits.
@@ -108,3 +108,4 @@ if emptyRoom1 == "O":
     else:
         emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
 Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
+'''
