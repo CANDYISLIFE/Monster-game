@@ -25,7 +25,8 @@ while endKey != 1:
     goldPossesion = 0
     bronzeSword = 0
     steelSword = 0
-    
+    if weaponRoom1 or blueKey or emptyRoom2 or emptyRoom1 or monsterRoom1 == "Q":
+        print("Goodbye!")
     if openingStory == "N":
         openingStory = input("There is a solid stone wall. You cannot go North.")
     if openingStory == "S":
