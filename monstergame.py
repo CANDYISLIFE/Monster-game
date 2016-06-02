@@ -111,6 +111,8 @@ while endKey != 1:
         else:
             emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
     Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
+    if emptyRoom1 == "W":
+        openingStory = input("You are back in the room where you started")
 
 '''
 D = ' ' 
