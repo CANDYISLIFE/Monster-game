@@ -51,7 +51,7 @@ while endKey != 1:
         if blueKey == "O":
             blueKey = input("You now have the blue key in your inventory.")
             bluePossesion = 1
-    if openingStory != "N" or "S" or "E" or "W":
+    if openingStory != "N" or "S" or "E" or "W" or "Q":
         openingStory = input("That is not an option. Please enter a command.")
     if weaponRoom1 == "N":
         openingStory = input("You are back in the room where you started. Please choose N, S, E or W.")
