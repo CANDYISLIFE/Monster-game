@@ -116,7 +116,10 @@ while endKey != 1:
     if monsterRoom1 == "O":
         if bronzeSword == 1:
             monsterRoom1 = input("""You charge forward into the room. In the center is a hideous beast.
-            It has 
+            It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
+            It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
+            At her full height she was pushing nine feet. You charge forward, swinging your sword. 
+            
 '''
 D = ' ' 
 while D != "Done":    
