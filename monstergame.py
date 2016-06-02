@@ -61,7 +61,7 @@ while endKey != 1:
         weaponRoom1 = input("There is a solid stone wall in the way. That is not an option. Please enter a command.")
     if weaponRoom1 == "W":
         emptyRoom2 = input("You are in an empty room with tunnel entrances to the north and east.")
-    if weaponRoom1 != "N" or "S" or "E" or "W" or "O":
+    if weaponRoom1 != "N" or "S" or "E" or "W" or "O" or "Q":
         weaponRoom1 = input("That is not an option. Please enter a command.")
     if blueKey == "E":
         openingStory = input("You are back in the room where you started. Please choose N, S, E or W.")
