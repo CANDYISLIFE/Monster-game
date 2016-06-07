@@ -119,6 +119,17 @@ while endKey != 1:
             It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
             It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
             At her full height she was pushing nine feet. You charge forward, swinging your sword. 
+            She roars and attacks. You duck under her arm and thrust your sword up at her throat.
+            Somehow you connect, and she sags over, yellow blood gushing from her throat.
+            As she dies, the door at the other end of the room swings open. """)
+        if bronzeSword != 1:
+            openingStory = input("""You charge forward into the room. In the center is a hideous beast.
+            It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
+            It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
+            At her full height she was pushing nine feet. You charge forward, unfolding your swiss army knife.
+            Before you can even reach her, her arm swings down at your head.
+            You raise your knife to parry, but it snaps at the force of her blow and everything goes black.
+            You wake up in the opening room again.""")
             
 '''
 D = ' ' 
