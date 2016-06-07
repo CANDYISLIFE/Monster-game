@@ -110,7 +110,7 @@ while endKey != 1:
         Proceed with caution. Press O to attack whatever lies ahead.""")
         else:
             emptyRoom1 = input("""The door is locked. You try to jimmy the handle but it doesn't budge.
-    Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
+        Then you try to break it by running into it. Nothing works. It looks like you need to find the key.""")
     if emptyRoom1 == "W":
         openingStory = input("You are back in the room where you started")
     if monsterRoom1 == "O":
