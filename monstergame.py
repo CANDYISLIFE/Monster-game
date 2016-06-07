@@ -16,6 +16,8 @@ while endKey != 1:
     Press Q to quit.
     Good Luck!""")
     
+    emptyRoom5 = " "
+    emptyRoom4 = " "
     weaponRoom1 = " "
     blueKey = " "
     emptyRoom2 = " " 
@@ -115,7 +117,7 @@ while endKey != 1:
         openingStory = input("You are back in the room where you started")
     if monsterRoom1 == "O":
         if bronzeSword == 1:
-            monsterRoom1 = input("""You charge forward into the room. In the center is a hideous beast.
+            emptyRoom4 = input("""You charge forward into the room. In the center is a hideous beast.
             It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
             It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
             At her full height she was pushing nine feet. You charge forward, swinging your sword. 
@@ -130,7 +132,10 @@ while endKey != 1:
             Before you can even reach her, her arm swings down at your head.
             You raise your knife to parry, but it snaps at the force of her blow and everything goes black.
             You wake up in the opening room again.""")
-            
+    if emptyRoom4 == "N":
+        emptyRoom4 = input("The door slams closed behind you. Can't go that way.")
+    if emptyRoom4 == "W":
+        
 '''
 D = ' ' 
 while D != "Done":    
