@@ -136,7 +136,9 @@ while endKey != 1:
         emptyRoom4 = input("The door slams closed behind you. Can't go that way.")
     if emptyRoom4 == "W":
         emptyRoom5 = input("You enter a room with entrances on the south, east and west walls.")
+    if emptyRoom4 == "S":
         
+    if emptyRoom4 == "E":
         
 '''
 D = ' ' 
