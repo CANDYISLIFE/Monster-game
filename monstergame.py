@@ -137,8 +137,12 @@ while endKey != 1:
     if emptyRoom4 == "W":
         emptyRoom5 = input("You enter a room with entrances on the south, east and west walls.")
     if emptyRoom4 == "S":
-        
+        emptyRoom4 = input("There is a stone wall.")
     if emptyRoom4 == "E":
+        emptyRoom4 = input("There is a stone wall.")
+    if emptyRoom4 != "N" or "S" or "E" or "W":
+        emptyRoom4 = input("THat is not an option. Plaese enter a viable command.")
+    
         
 '''
 D = ' ' 
