@@ -11,7 +11,7 @@ while not endKey:
         while not exitRoom:
             question = "enter a direction"
             validInput = False
-            while not validinput:
+            while not validInput:
                 x = input(question)
                 x = x.upper()
                 if x == "N" or x == "E" or x == "S" or x == "W":
