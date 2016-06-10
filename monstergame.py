@@ -249,8 +249,8 @@ while not endKey:
             She roars and attacks. You duck under her arm and thrust your sword up at her throat.
             Somehow you connect, and she sags over, yellow blood gushing from her throat.
             As she dies, the door at the other end of the room swings open. """
-                roomNumber = 9
-                exitRoom = True
+                    roomNumber = 9
+                    exitRoom = True
                 else:
                     question = """You charge forward into the room. In the center is a hideous beast.
             It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
