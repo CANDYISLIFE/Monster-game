@@ -32,7 +32,8 @@ while not endKey:
                 roomNumber ==
                 exitRoom = True
             #if x == "O":
-                
+                roomNumber == 
+                exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
