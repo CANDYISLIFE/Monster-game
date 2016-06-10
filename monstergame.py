@@ -172,7 +172,7 @@ while not endKey:
         emptyRoom4 = input("THat is not an option. Plaese enter a viable command.")
     
         
-'''
+
 D = ' ' 
 while D != "Done":    
     A = ' '
@@ -186,4 +186,4 @@ while D != "Done":
         C = input("C")
     if A == "S":
         B = input("B")
-'''
+"""
