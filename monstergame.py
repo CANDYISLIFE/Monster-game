@@ -20,8 +20,21 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             if x == "S":
                 roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                
+            if x == "Q":
+                endKey = True
                 exitRoom = True
             
 
