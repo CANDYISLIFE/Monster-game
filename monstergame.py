@@ -27,20 +27,20 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 4
+                roomNumber = 4
                 exitRoom = True
             if x == "E":
-                roomNumber == 2
+                roomNumber = 2
                 exitRoom = True
             if x == "W":
                 question = "You are blocked by a wall; try another direction." 
-               # roomNumber == 
+               # roomNumber = 
                 # exitRoom = True
             if x == "O":
-                roomNumber == 1
+                roomNumber = 1
                 bluePossesion = True
                 #exitRoom = True
             if x == "Q":
@@ -115,13 +115,13 @@ while not endKey:
                     question = "The door is locked, you need a key; try another direction."
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "W":
-                roomNumber == 2
+                roomNumber = 2
                 exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
@@ -142,21 +142,21 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "E":
-                roomNumber == 5
+                roomNumber = 5
                 exitRoom = True
             if x == "W":
                 "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
@@ -222,21 +222,21 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 9 
+                roomNumber = 9 
                 exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "W":
                question =  "You are blocked by a wall; try another direction."
-                #roomNumber ==
+                #roomNumber =
                 #exitRoom = True
             #if x == "O":
-              #  roomNumber == 
+              #  roomNumber = 
                # exitRoom = True
             if x == "Q":
                 endKey = True
@@ -256,20 +256,20 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 10
+                roomNumber = 10
                 exitRoom = True
             if x == "E":
-                roomNumber == 8
+                roomNumber = 8
                 exitRoom = True
             if x == "W":
                question = "You are blocked by a wall; try another direction."
-               # roomNumber == 
+               # roomNumber = 
                 #exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                # exitRoom = True
             if x == "Q":
                 endKey = True
@@ -289,19 +289,19 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 11
+                roomNumber = 11
                 exitRoom = True
             if x == "E":
-                roomNumber == 9
+                roomNumber = 9
                 exitRoom = True
             if x == "W":
-                roomNumber == 7
+                roomNumber = 7
                 exitRoom = True
             #if x == "O":
-               # roomNumber == 
+               # roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
@@ -321,21 +321,21 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                roomNumber == 9
+                roomNumber = 9
                 exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 5
+                #roomNumber = 5
                 #exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber ==
+                #roomNumber =
                 #exitRoom = True
             if x == "W":
-                roomNumber == 8
+                roomNumber = 8
                 exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
@@ -355,23 +355,23 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "W":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "O":
                 question = "You now have the gold key. Where do you want to go?"
-                roomNumber == 10
+                roomNumber = 10
                 exitRoom = True
                 goldPossesion = True
             if x == "Q":
@@ -391,21 +391,21 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                roomNumber == 8
+                roomNumber = 8
                 exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "E":
-                roomNumber == 12
+                roomNumber = 12
                 exitRoom = True
             if x == "W":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
@@ -425,21 +425,21 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
                 endKey = True
                 exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "W":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
