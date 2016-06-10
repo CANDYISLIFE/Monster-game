@@ -13,7 +13,7 @@ while not endKey:
     if roomNumber == 1:
         exitRoom = False
         print(bluePossesion)
-        if bluePossesion == True:
+        if bluePossesion:
             question = "You are in a room with an empty pedestal"
         else:
             question = "You pass through the tunnel and end up in a room with a blue key on a pedestal in the center or the room. Press O to pick up blue key."
@@ -43,6 +43,8 @@ while not endKey:
             if x == "O":
                 roomNumber = 1
                 bluePossesion = True
+                print("Hi there")
+                print(bluePossesion)
                 #exitRoom = True
             if x == "Q":
                 endKey = True
