@@ -181,17 +181,17 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "E":
-                roomNumber == 6
+                roomNumber = 6
                 exitRoom = True
             if x == "W":
-                roomNumber == 4
+                roomNumber = 4
                 exitRoom = True
             if x == "O":
                 question = """You pull off the lock and throw back the lid of the chest. 
@@ -201,7 +201,7 @@ while not endKey:
             You pull out your knife and cut around it. 
             The looters missed something! There is a bronze sword hidden in the lining!
             This will help you defend yourself against monsters or looters if they come back."""
-                roomNumber == 5
+                roomNumber = 5
                 exitRoom = True
                 bronzeSword = True
             if x == "Q":
