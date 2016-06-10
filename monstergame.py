@@ -1,10 +1,10 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
-    bluePossesion = False
-    goldPossesion = False
-    bronzeSword = False
-    steelSword = False
+bluePossesion = False
+goldPossesion = False
+bronzeSword = False
+steelSword = False
 
 roomNumber = 2          # Starting room
 endKey = False
@@ -38,7 +38,7 @@ while not endKey:
                 # exitRoom = True
             if x == "O":
                 roomNumber == 1
-                blueKey = True
+                bluePossesion = True
                 #exitRoom = True
             if x == "Q":
                 endKey = True
