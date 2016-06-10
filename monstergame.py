@@ -9,7 +9,7 @@ steelSword = False
 roomNumber = 2          # Starting room
 endKey = False
 while not endKey:
-
+    
     if roomNumber == 1:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
@@ -68,6 +68,7 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
+                question = "You are blocked by a wall; try another direction."
                 roomNumber == 2 
                 exitRoom = True
             if x == "S":
