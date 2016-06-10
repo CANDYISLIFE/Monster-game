@@ -375,7 +375,10 @@ while not endKey:
                 
     elif roomNumber == 10:
         exitRoom = False
-        question = "There is a gold key on a pedestal. Press o to pick up."
+        if goldPossesion:
+            question: "You are in a room with an empty pedestal"
+        else:    
+            question = "There is a gold key on a pedestal. Press o to pick up."
         while not exitRoom:
             validInput = False
             while not validInput:
