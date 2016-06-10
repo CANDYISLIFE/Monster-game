@@ -290,6 +290,7 @@ while not endKey:
                 else:
                      question = "The monster is in your way. You have to kill him to get through."
                      roomNumber = 7
+                     exitRoom = True
             if x == "E":
                 roomNumber = 8
                 exitRoom = True
