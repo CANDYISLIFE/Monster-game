@@ -1,7 +1,31 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
+
+roomNumber = 2          # Starting room
+endKey = False
+while not endKey:
+    
+    if roomNumber == 2:
+        exitRoom = False
+        while not exitRoom:
+            
+            print "Hi Billy"            
+            
+            
+            
+            exitRoom = True
+            
+
+    endKey = True
+    
+
+
+
+
+
 '''
+
 # endKey = False
 # while not endKey:
     openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
@@ -18,7 +42,8 @@ the map of this gameis in the outside pocket of my bag
     Good Luck!""")
  '''
  
- hello
+'''
+
     emptyRoom5 = " "
     emptyRoom4 = " "
     weaponRoom1 = " "
