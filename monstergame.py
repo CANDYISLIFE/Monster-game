@@ -64,14 +64,14 @@ while not endKey:
                 roomNumber == 5
                 exitRoom = True
             if x == "E":
-                roomNumber ==
+                roomNumber == 3
                 exitRoom = True
             if x == "W":
-                roomNumber ==
+                roomNumber == 1
                 exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
