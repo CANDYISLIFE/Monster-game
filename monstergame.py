@@ -17,7 +17,7 @@ while not endKey:
                 if x == "N" or x == "E" or x == "S" or x == "W":
                     validInput = True
                 else:
-                    print("That is not a valid entry bozo")
+                    input("That is not a valid entry bozo")
             
             exitRoom = True
             
