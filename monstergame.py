@@ -96,7 +96,7 @@ while not endKey:
    
     elif roomNumber == 3:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = "You are in a room with a blu door to the south."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -115,7 +115,7 @@ while not endKey:
                     roomNumber = 6
                     exitRoom = True
                 else:
-                    question = "The door is locked, you need a key; try another direction."
+                    question = "The door is locked, you need the blue key; try another direction."
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
