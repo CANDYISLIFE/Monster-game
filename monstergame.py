@@ -11,9 +11,9 @@ endKey = False
 while not endKey:
     print("Top of loop")
     print(roomNumber)
+    print(bronzeSword)
     if roomNumber == 1:
         exitRoom = False
-        print(bluePossesion)
         if bluePossesion:
             question = "You are in a room with an empty pedestal"
         else:
@@ -45,7 +45,6 @@ while not endKey:
                 roomNumber = 1
                 bluePossesion = True
                 print("Hi there")
-                print(bluePossesion)
                 exitRoom = True
             if x == "Q":
                 endKey = True
