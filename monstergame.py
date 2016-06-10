@@ -9,7 +9,7 @@ while not endKey:
     if roomNumber == 2:
         exitRoom = False
         while not exitRoom:
-            
+            question = "enter a direction"
             print("Hi Billy")            
             
             
