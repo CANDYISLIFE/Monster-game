@@ -70,22 +70,21 @@ while not endKey:
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
-            x= input(x)
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                roomNumber == 2 
+                roomNumber = 2 
                 exitRoom = True
             if x == "S":
-                roomNumber == 5
+                roomNumber = 5
                 exitRoom = True
             if x == "E":
-                roomNumber == 3
+                roomNumber = 3
                 exitRoom = True
             if x == "W":
-                roomNumber == 1
+                roomNumber = 1
                 exitRoom = True
             #if x == "O":
-                #roomNumber == 
+                #roomNumber = 
                 #exitRoom = True
             if x == "Q":
                 endKey = True
