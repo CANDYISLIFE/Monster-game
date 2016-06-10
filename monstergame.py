@@ -10,7 +10,7 @@ while not endKey:
         exitRoom = False
         while not exitRoom:
             
-            print "Hi Billy"            
+            print("Hi Billy")            
             
             
             
