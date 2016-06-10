@@ -257,6 +257,7 @@ while not endKey:
             As she dies, the door at the other end of the room swings open. """
                     roomNumber = 9
                     exitRoom = True
+                    queenDead = True
                 else:
                     question = """You charge forward into the room. In the center is a hideous beast.
             It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
