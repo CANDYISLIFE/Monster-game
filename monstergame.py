@@ -360,7 +360,7 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                #question = "You are blocked by a wall; try another direction."
+                question = "You are in the room with the dead queen."
                 roomNumber = 6
                 exitRoom = True
             if x == "S":
