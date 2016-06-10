@@ -96,7 +96,7 @@ while not endKey:
    
     elif roomNumber == 3:
         exitRoom = False
-        question = "You are in a room with a blu door to the south."
+        question = "You are in a room with a blue door to the south."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -213,7 +213,8 @@ while not endKey:
 
     elif roomNumber == 6:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = """There is a hideous monster in the room. You need a string weapon to kill her.
+        Press O to attack her."""
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -228,7 +229,8 @@ while not endKey:
                 roomNumber = 3
                 exitRoom = True
             if x == "S":
-                roomNumber = 9 
+                question = "You cannot get around the monster."
+                roomNumber = 6 
                 exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
@@ -238,9 +240,27 @@ while not endKey:
                question =  "You are blocked by a wall; try another direction."
                 #roomNumber =
                 #exitRoom = True
-            #if x == "O":
-              #  roomNumber = 
-               # exitRoom = True
+            if x == "O":
+                if bronzeSword:
+                    """You charge forward into the room. In the center is a hideous beast.
+            It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
+            It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
+            At her full height she was pushing nine feet. You charge forward, swinging your sword. 
+            She roars and attacks. You duck under her arm and thrust your sword up at her throat.
+            Somehow you connect, and she sags over, yellow blood gushing from her throat.
+            As she dies, the door at the other end of the room swings open. """
+                roomNumber = 9
+                exitRoom = True
+                else:
+                    """You charge forward into the room. In the center is a hideous beast.
+            It has huge bat wings curled around it and it long, gnarly fingernail scraped the ground as it stood.
+            It appeared female from the long tangled hair that sprouted from her wrinkled skull. 
+            At her full height she was pushing nine feet. You charge forward, unfolding your swiss army knife.
+            Before you can even reach her, her arm swings down at your head.
+            You raise your knife to parry, but it snaps at the force of her blow and everything goes black.
+            You wake up in the opening room again."""
+                roomNumber = 2 
+                exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
