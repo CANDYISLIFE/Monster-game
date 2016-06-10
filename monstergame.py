@@ -5,10 +5,42 @@ the map of this gameis in the outside pocket of my bag
 roomNumber = 2          # Starting room
 endKey = False
 while not endKey:
-    
+
+    if roomNumber == 1:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
     if roomNumber == 2:
         exitRoom = False
-        question = "Enter a direction"
+        question = "Enter a direction: N, S, E, W."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -38,7 +70,325 @@ while not endKey:
                 endKey = True
                 exitRoom = True
             
+    if roomNumber == 3:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 4:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True    
+                
+    if roomNumber == 5:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
 
+    if roomNumber == 6:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 7:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 8:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 9:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 10:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+                
+    if roomNumber == 11:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
+
+    if roomNumber == 12:
+        exitRoom = False
+        question = "Enter a direction: N, S, E, W."
+        while not exitRoom:
+            validInput = False
+            while not validInput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                    validInput = True
+                else:
+                    question = "That is not a valid entry, bozo. " + question
+            if x == "N":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "S":
+                roomNumber == 5
+                exitRoom = True
+            if x == "E":
+                roomNumber ==
+                exitRoom = True
+            if x == "W":
+                roomNumber ==
+                exitRoom = True
+            #if x == "O":
+                roomNumber == 
+                exitRoom = True
+            if x == "Q":
+                endKey = True
+                exitRoom = True
     endKey = True
     
 
