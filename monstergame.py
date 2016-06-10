@@ -1,7 +1,7 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
-bluePossesion = False
+bluePossesion = True
 goldPossesion = False
 bronzeSword = False
 steelSword = False
