@@ -12,7 +12,7 @@ while not endKey:
     
     if roomNumber == 1:
         exitRoom = False
-        y = input(bluePossession)
+        print(bluePossession)
         if bluePossesion:
             question = "You are in a room with an empty pedestal"
         else:
