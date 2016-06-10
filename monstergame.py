@@ -1,7 +1,7 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
-bluePossesion = True
+bluePossesion = False
 goldPossesion = False
 bronzeSword = False
 steelSword = False
@@ -12,6 +12,7 @@ while not endKey:
     
     if roomNumber == 1:
         exitRoom = False
+        y = input(BluePossession)
         if bluePossesion:
             question = "You are in a room with an empty pedestal"
         else:
