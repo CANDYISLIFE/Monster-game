@@ -269,7 +269,10 @@ while not endKey:
                
     elif roomNumber == 7:
         exitRoom = False
-        question = "There is a monster in the center of the room. The creature dropped its cloak, revealing it’s scaly body. It stood to its full height, slightly taller than a grown man. It blue-green skin and yellow abdomen reflected the sunlight, but people didn’t tend to notice this. They looked at either its long claws or its head, which was elongated and the long mouth had dozens of sharp teeth protruding from it. Press o to attack."
+        if monsterDead:
+            question = "You are in the room with the dead monster."
+        else:
+            question = "There is a monster in the center of the room. The creature dropped its cloak, revealing it’s scaly body. It stood to its full height, slightly taller than a grown man. It blue-green skin and yellow abdomen reflected the sunlight, but people didn’t tend to notice this. They looked at either its long claws or its head, which was elongated and the long mouth had dozens of sharp teeth protruding from it. Press o to attack."
         while not exitRoom:
             validInput = False
             while not validInput:
