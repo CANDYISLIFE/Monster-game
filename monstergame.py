@@ -44,20 +44,20 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                 
-    if roomNumber == 2:
+    elif roomNumber == 2:
         exitRoom = False
         question = """You are in a network of caves filled with monsters, locked doors, and one final boss.
-    You are armed with only the clothes on your back, a small folding knife, and your wits.
-    The room you are currently in has tunnel entrances in the south, east and west.
-    Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
-    But beware, the boss is a very challenging opponent who should not be taken lightly.
-    If you try to attack it or any other monsters with a weapon that is not strong enough, the monster will take your weapon and kill you.
-    If you type in N, S, E, or W, you will leave the room in the direction you type. 
-    In some rooms you cannot go in every direction because there is a wall or locked door. 
-    The boss room is in the south-east corner of the map. 
-    In some rooms there are key which can be used to open locked doors or weapons to kill monsters. 
-    Press Q to quit.
-    Good Luck!"""
+        You are armed with only the clothes on your back, a small folding knife, and your wits.
+        The room you are currently in has tunnel entrances in the south, east and west.
+        Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
+        But beware, the boss is a very challenging opponent who should not be taken lightly.
+        If you try to attack it or any other monsters with a weapon that is not strong enough, the monster will take your weapon and kill you.
+        If you type in N, S, E, or W, you will leave the room in the direction you type. 
+        In some rooms you cannot go in every direction because there is a wall or locked door. 
+        The boss room is in the south-east corner of the map. 
+        In some rooms there are key which can be used to open locked doors or weapons to kill monsters. 
+        Press Q to quit.
+        Good Luck!"""
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -86,7 +86,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
             
-    if roomNumber == 3:
+    elif roomNumber == 3:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -123,7 +123,7 @@ while not endKey:
                 exitRoom = True
 
                
-    if roomNumber == 4:
+    elif roomNumber == 4:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -157,7 +157,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True    
                 
-    if roomNumber == 5:
+    elif roomNumber == 5:
         exitRoom = False
         if bronzeSword:
             question = "There is a open chest where you previously got your sword. Where do you want to go?"
@@ -203,7 +203,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
 
-    if roomNumber == 6:
+    elif roomNumber == 6:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -237,7 +237,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                
-    if roomNumber == 7:
+    elif roomNumber == 7:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -270,7 +270,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                 
-    if roomNumber == 8:
+    elif roomNumber == 8:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -302,7 +302,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                 
-    if roomNumber == 9:
+    elif roomNumber == 9:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -336,7 +336,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                 
-    if roomNumber == 10:
+    elif roomNumber == 10:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
@@ -373,7 +373,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
                 
-    if roomNumber == 11:
+    elif roomNumber == 11:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
         while not exitRoom:
