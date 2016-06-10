@@ -194,7 +194,7 @@ while not endKey:
                 #exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
-                roomNumber = 6
+                roomNumber = 5
                 exitRoom = True
             if x == "W":
                 roomNumber = 4
