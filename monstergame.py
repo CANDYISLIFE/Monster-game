@@ -1,10 +1,13 @@
 """
 the map of this gameis in the outside pocket of my bag
+credit: Mr DEnnison, My dad, Ryan, sff chronicles, stack overflow
 """
+
 bluePossesion = False
 goldPossesion = False
 bronzeSword = False
 steelSword = False
+monsterDead = False
 
 roomNumber = 2          # Starting room
 endKey = False
@@ -266,7 +269,7 @@ while not endKey:
                
     elif roomNumber == 7:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = "There is a monster in the center of the room. The creature dropped its cloak, revealing it’s scaly body. It stood to its full height, slightly taller than a grown man. It blue-green skin and yellow abdomen reflected the sunlight, but people didn’t tend to notice this. They looked at either its long claws or its head, which was elongated and the long mouth had dozens of sharp teeth protruding from it. Press o to attack."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -281,8 +284,12 @@ while not endKey:
                 #roomNumber = 
                 #exitRoom = True
             if x == "S":
-                roomNumber = 10
-                exitRoom = True
+                if monsterDead:
+                    roomNumber = 10
+                    exitRoom = True
+                else:
+                     question = "The monster is in your way. You have to kill him to get through."
+                     roomNumber = 7
             if x == "E":
                 roomNumber = 8
                 exitRoom = True
@@ -290,8 +297,10 @@ while not endKey:
                question = "You are blocked by a wall; try another direction."
                # roomNumber = 
                 #exitRoom = True
-            #if x == "O":
-                #roomNumber = 
+            if x == "O":
+                question = "You attack, and after a long battle, eventually kill the monster. A door to the south swings open."
+                roomNumber = 7
+                monsterDead = True
                # exitRoom = True
             if x == "Q":
                 endKey = True
