@@ -14,7 +14,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -46,7 +46,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -78,7 +78,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -110,7 +110,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -142,7 +142,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -174,7 +174,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -206,7 +206,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -238,7 +238,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -270,7 +270,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -302,7 +302,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -334,7 +334,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
@@ -366,7 +366,7 @@ while not endKey:
             while not validInput:
                 x = input(question)
                 x = x.upper()
-                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x + "Q":
+                if x == "N" or x == "E" or x == "S" or x == "W" or x = "O" or x = "Q":
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
