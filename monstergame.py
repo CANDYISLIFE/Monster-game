@@ -46,18 +46,9 @@ while not endKey:
                 
     if roomNumber == 2:
         exitRoom = False
-        question = """You are in a network of caves filled with monsters, locked doors, and one final boss.
-    You are armed with only the clothes on your back, a small folding knife, and your wits.
-    The room you are currently in has tunnel entrances in the south, east and west.
-    Your job is to make it to the room with the final boss, which contains the door to the outside world and freedom. 
-    But beware, the boss is a very challenging opponent who should not be taken lightly.
-    If you try to attack it or any other monsters with a weapon that is not strong enough, the monster will take your weapon and kill you.
-    If you type in N, S, E, or W, you will leave the room in the direction you type. 
-    In some rooms you cannot go in every direction because there is a wall or locked door. 
-    The boss room is in the south-east corner of the map. 
-    In some rooms there are key which can be used to open locked doors or weapons to kill monsters. 
-    Press Q to quit.
-    Good Luck!"""
+        question = """You travel through a tunnel and eventually come to a room with a chest in one corner. 
+        The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
+        unlocked. Press O to open the box."""
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -68,10 +59,10 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                #roomNumber == 
-                #exitRoom = True
+                roomNumber == 2 
+                exitRoom = True
             if x == "S":
+                question = "You are blocked by a wall; try another direction."
                 roomNumber == 5
                 exitRoom = True
             if x == "E":
@@ -160,7 +151,16 @@ while not endKey:
                 
     if roomNumber == 5:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        if bronzeSword:
+            question = "
+        else:
+            question = """You pull off the lock and throw back the lid of the chest. 
+            It is richly upholstered in velvet, but is completly empty. 
+            The people who broke the lid off also took everything inside of it.
+            Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
+            You pull out your knife and cut around it. 
+            The looters missed something! There is a bronze sword hidden in the lining!
+            This will help you defend yourself against monsters or looters if they come back."""
         while not exitRoom:
             validInput = False
             while not validInput:
