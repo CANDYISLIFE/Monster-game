@@ -443,7 +443,7 @@ while not endKey:
             if x == "Q":
                 endKey = True
                 exitRoom = True
-    endKey = True
+        endKey = True
    
 
 
