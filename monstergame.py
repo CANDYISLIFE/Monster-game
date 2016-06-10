@@ -258,8 +258,8 @@ while not endKey:
             Before you can even reach her, her arm swings down at your head.
             You raise your knife to parry, but it snaps at the force of her blow and everything goes black.
             You wake up in the opening room again."""
-                roomNumber = 2 
-                exitRoom = True
+                    roomNumber = 2 
+                    exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
