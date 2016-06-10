@@ -111,7 +111,8 @@ while not endKey:
             if x == "Q":
                 endKey = True
                 exitRoom = True
-                
+
+"""                
     if roomNumber == 4:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
