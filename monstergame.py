@@ -92,19 +92,19 @@ while not endKey:
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber == 
                 #exitRoom = True
-            if x == "S":
-                roomNumber == 5
+            if x == "S" and bluePossesion:
+                roomNumber = 6
                 exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber == 
                 #exitRoom = True
             if x == "W":
-                roomNumber ==
+                roomNumber == 2
                 exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
