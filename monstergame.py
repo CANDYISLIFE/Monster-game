@@ -235,9 +235,14 @@ while not endKey:
                 roomNumber = 3
                 exitRoom = True
             if x == "S":
-                question = "You cannot get around the monster."
-                roomNumber = 6 
-                exitRoom = True
+                if queenDead:
+                    question = "Enter a direction: N, S, E, W."
+                    roomNumber = 9
+                    exitRoom = True
+                else:
+                    question = "You cannot get around the monster."
+                    roomNumber = 6 
+                    exitRoom = True
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
