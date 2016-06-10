@@ -383,7 +383,7 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "E":
-                roomNumber ==
+                roomNumber == 12
                 exitRoom = True
             if x == "W":
                 question = "You are blocked by a wall; try another direction."
