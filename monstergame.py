@@ -213,7 +213,7 @@ while not endKey:
 
     elif roomNumber == 6:
         exitRoom = False
-        question = """There is a hideous monster in the room. You need a string weapon to kill her.
+        question = """There is a hideous monster in the room. You need a strong weapon to kill her.
         Press O to attack her."""
         while not exitRoom:
             validInput = False
