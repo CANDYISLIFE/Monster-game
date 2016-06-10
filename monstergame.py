@@ -16,7 +16,9 @@ the map of this gameis in the outside pocket of my bag
     In some rooms there are key which can be used to open locked doors or weapons to kill monsters. 
     Press Q to quit.
     Good Luck!""")
-    
+ '''
+ 
+ hello
     emptyRoom5 = " "
     emptyRoom4 = " "
     weaponRoom1 = " "
