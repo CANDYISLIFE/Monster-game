@@ -8,8 +8,8 @@ while not endKey:
     
     if roomNumber == 2:
         exitRoom = False
+        question = "Enter a direction"
         while not exitRoom:
-            question = "Enter a direction"
             validInput = False
             while not validInput:
                 x = input(question)
@@ -18,8 +18,11 @@ while not endKey:
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
-
-            exitRoom = True
+            if x = "N"
+                question = "You are blocked by a wall; try another direction."
+            if x = "S"
+                roomNumber == 5
+                exitRoom = True
             
 
     endKey = True
