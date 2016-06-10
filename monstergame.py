@@ -365,7 +365,7 @@ while not endKey:
                 
     elif roomNumber == 10:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = "There is a gold key on a pedestal. Press o to pick up."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -402,7 +402,7 @@ while not endKey:
                 
     elif roomNumber == 11:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = "There is a golden door east of you."
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -420,8 +420,14 @@ while not endKey:
                 #roomNumber = 
                 #exitRoom = True
             if x == "E":
-                roomNumber = 12
-                exitRoom = True
+                if goldPossesion:
+                    question = "In room with boss"
+                    roomNumber = 12
+                    exitRoom = True
+                else:
+                    question = "The gold door is locked, you need the gold key to enter."
+                    roomNumber = 11
+                    
             if x == "W":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
