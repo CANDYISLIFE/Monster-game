@@ -306,7 +306,7 @@ while not endKey:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
-                roomNumber == 
+                roomNumber == 9
                 exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
