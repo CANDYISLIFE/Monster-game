@@ -10,6 +10,7 @@ while not endKey:
         exitRoom = False
         while not exitRoom:
             question = "enter a direction"
+            input(question)
             print("Hi Billy")            
             
             
