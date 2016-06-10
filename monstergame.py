@@ -23,16 +23,18 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 5
+                roomNumber == 4
                 exitRoom = True
             if x == "E":
-                roomNumber == 3
+                roomNumber == 2
                 exitRoom = True
             if x == "W":
+                question = "You are blocked by a wall; try another direction." 
+               # roomNumber == 
+                # exitRoom = True
+            if x == "O":
                 roomNumber == 1
-                exitRoom = True
-            #if x == "O":
-                #roomNumber == 
+                blueKey = True
                 #exitRoom = True
             if x == "Q":
                 endKey = True
