@@ -461,7 +461,7 @@ while not endKey:
 
     elif roomNumber == 12:
         exitRoom = False
-        question = "Enter a direction: N, S, E, W."
+        question = "You are in the room with the final boss. This one dwarfs the other two. It's hunched scaly back brushed the ceiling and the rusty cleaver it grasped scraped against the floor. Press o to attack"
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -486,8 +486,8 @@ while not endKey:
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
                 #exitRoom = True
-            #if x == "O":
-                #roomNumber = 
+            if x == "O":
+                question = "After a long hard battle, you killed the monster. A door opens and sunshine lances into the dark cavern. At long last you are free! Good job, press q to quit."
                 #exitRoom = True
             if x == "Q":
                 endKey = True
