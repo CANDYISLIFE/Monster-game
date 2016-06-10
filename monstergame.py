@@ -141,12 +141,11 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                #roomNumber = 
-                #exitRoom = True
+                roomNumber = 1
+                exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
-                #roomNumber = 
+                #roomNumber = 7 
                 #exitRoom = True
             if x == "E":
                 roomNumber = 5
@@ -180,14 +179,15 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                #roomNumber = 
-                #exitRoom = True
+                #question = "You are blocked by a wall; try another direction."
+                roomNumber = 2
+                exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
                 #exitRoom = True
             if x == "E":
+                question = "You are blocked by a wall; try another direction."
                 roomNumber = 6
                 exitRoom = True
             if x == "W":
@@ -221,9 +221,9 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                #roomNumber = 
-                #exitRoom = True
+                #question = "You are blocked by a wall; try another direction."
+                roomNumber = 3
+                exitRoom = True
             if x == "S":
                 roomNumber = 9 
                 exitRoom = True
@@ -320,8 +320,8 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                roomNumber = 9
+                #question = "You are blocked by a wall; try another direction."
+                roomNumber = 6
                 exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
@@ -354,9 +354,9 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
-                question = "You are blocked by a wall; try another direction."
-                #roomNumber = 
-                #exitRoom = True
+                #question = "You are blocked by a wall; try another direction."
+                roomNumber = 7
+                exitRoom = True
             if x == "S":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber = 
