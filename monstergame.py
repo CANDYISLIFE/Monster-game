@@ -317,11 +317,11 @@ while not endKey:
                 #roomNumber ==
                 #exitRoom = True
             if x == "W":
-                roomNumber ==
+                roomNumber == 8
                 exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
@@ -343,16 +343,20 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 5
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             if x == "E":
-                roomNumber ==
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             if x == "W":
-                roomNumber ==
-                exitRoom = True
-            #if x == "O":
-                roomNumber == 
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "O":
+                question = 
+                roomNumber == 10
                 exitRoom = True
             if x == "Q":
                 endKey = True
