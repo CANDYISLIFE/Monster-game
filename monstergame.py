@@ -46,7 +46,7 @@ while not endKey:
                 bluePossesion = True
                 print("Hi there")
                 print(bluePossesion)
-                #exitRoom = True
+                exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
