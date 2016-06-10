@@ -10,10 +10,14 @@ while not endKey:
         exitRoom = False
         while not exitRoom:
             question = "enter a direction"
-            input(question)
-            print("Hi Billy")            
-            
-            
+            validInput = False
+            while not validinput:
+                x = input(question)
+                x = x.upper()
+                if x == "N" or x == "E" or x == "S" or x == "W":
+                    validInput = True
+                else:
+                    print("That is not a valid entry bozo")
             
             exitRoom = True
             
