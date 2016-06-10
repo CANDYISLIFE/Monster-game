@@ -112,7 +112,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
 
-"""                
+               
     if roomNumber == 4:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
@@ -130,17 +130,19 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "S":
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
+            if x == "E":
                 roomNumber == 5
                 exitRoom = True
-            if x == "E":
-                roomNumber ==
-                exitRoom = True
             if x == "W":
-                roomNumber ==
-                exitRoom = True
+                "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True    
@@ -162,17 +164,20 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 5
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             if x == "E":
-                roomNumber ==
+                roomNumber == 6
                 exitRoom = True
             if x == "W":
-                roomNumber ==
+                roomNumber == 4
                 exitRoom = True
-            #if x == "O":
-                roomNumber == 
+            if x == "O":
+                question = "Where to now?"
+                roomNumber == 5
                 exitRoom = True
+                bronzeSword = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
@@ -401,7 +406,7 @@ while not endKey:
                 endKey = True
                 exitRoom = True
     endKey = True
-    
+   
 
 
 
