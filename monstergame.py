@@ -70,6 +70,7 @@ while not endKey:
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
+            x= input(x)
             if x == "N":
                 question = "You are blocked by a wall; try another direction."
                 roomNumber == 2 
