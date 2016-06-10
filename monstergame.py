@@ -9,7 +9,8 @@ steelSword = False
 roomNumber = 2          # Starting room
 endKey = False
 while not endKey:
-    
+    print("Top of loop")
+    print(roomNumber)
     if roomNumber == 1:
         exitRoom = False
         print(bluePossesion)
@@ -92,8 +93,7 @@ while not endKey:
             if x == "Q":
                 endKey = True
                 exitRoom = True
-        print(roomNumber)
-        
+   
     elif roomNumber == 3:
         exitRoom = False
         question = "Enter a direction: N, S, E, W."
