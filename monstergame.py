@@ -1,8 +1,9 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
-endKey = 0
-while endKey != 1:
+'''
+# endKey = False
+# while not endKey:
     openingStory = input("""You are in a network of caves filled with monsters, locked doors, and one final boss.
     You are armed with only the clothes on your back, a small folding knife, and your wits.
     The room you are currently in has tunnel entrances in the south, east and west.
