@@ -152,15 +152,11 @@ while not endKey:
     if roomNumber == 5:
         exitRoom = False
         if bronzeSword:
-            question = "
+            question = "There is a open chest where you previously got your sword. Where do you want to go?"
         else:
-            question = """You pull off the lock and throw back the lid of the chest. 
-            It is richly upholstered in velvet, but is completly empty. 
-            The people who broke the lid off also took everything inside of it.
-            Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
-            You pull out your knife and cut around it. 
-            The looters missed something! There is a bronze sword hidden in the lining!
-            This will help you defend yourself against monsters or looters if they come back."""
+            question = """You travel through a tunnel and eventually come to a room with a chest in one corner. 
+        The chest is banded in gold and has a large padlock holding it closed. Fortunately, the padlock is haging open,
+        unlocked. Press O to open the box."""
         while not exitRoom:
             validInput = False
             while not validInput:
@@ -185,7 +181,13 @@ while not endKey:
                 roomNumber == 4
                 exitRoom = True
             if x == "O":
-                question = "Where to now?"
+                question = """You pull off the lock and throw back the lid of the chest. 
+            It is richly upholstered in velvet, but is completly empty. 
+            The people who broke the lid off also took everything inside of it.
+            Just before closing the chest and continuing in your search, you notice a strange bulge in the lining.
+            You pull out your knife and cut around it. 
+            The looters missed something! There is a bronze sword hidden in the lining!
+            This will help you defend yourself against monsters or looters if they come back."""
                 roomNumber == 5
                 exitRoom = True
                 bronzeSword = True
