@@ -18,9 +18,9 @@ while not endKey:
                     validInput = True
                 else:
                     question = "That is not a valid entry, bozo. " + question
-            if x = "N":
+            if x == "N":
                 question = "You are blocked by a wall; try another direction."
-            if x = "S":
+            if x == "S":
                 roomNumber == 5
                 exitRoom = True
             
