@@ -92,9 +92,12 @@ while not endKey:
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber == 
                 #exitRoom = True
-            if x == "S" and bluePossesion:
-                roomNumber = 6
-                exitRoom = True
+            if x == "S":
+                if bluePossesion:
+                    roomNumber = 6
+                    exitRoom = True
+                else:
+                    question = "The door is locked, you need a key; try another direction."
             if x == "E":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber == 
