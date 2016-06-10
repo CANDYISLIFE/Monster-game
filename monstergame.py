@@ -355,9 +355,10 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "O":
-                question = 
+                question = "You now have the gold key. Where do you want to go?"
                 roomNumber == 10
                 exitRoom = True
+                goldPossesion = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
@@ -375,21 +376,22 @@ while not endKey:
                 else:
                     question = "That is not a valid entry, bozo. " + question
             if x == "N":
+                roomNumber == 8
+                exitRoom = True
+            if x == "S":
                 question = "You are blocked by a wall; try another direction."
                 #roomNumber == 
                 #exitRoom = True
-            if x == "S":
-                roomNumber == 5
-                exitRoom = True
             if x == "E":
                 roomNumber ==
                 exitRoom = True
             if x == "W":
-                roomNumber ==
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
@@ -411,17 +413,19 @@ while not endKey:
                 #roomNumber == 
                 #exitRoom = True
             if x == "S":
-                roomNumber == 5
+                endKey = True
                 exitRoom = True
             if x == "E":
-                roomNumber ==
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             if x == "W":
-                roomNumber ==
-                exitRoom = True
+                question = "You are blocked by a wall; try another direction."
+                #roomNumber == 
+                #exitRoom = True
             #if x == "O":
-                roomNumber == 
-                exitRoom = True
+                #roomNumber == 
+                #exitRoom = True
             if x == "Q":
                 endKey = True
                 exitRoom = True
