@@ -1,6 +1,10 @@
 """
 the map of this gameis in the outside pocket of my bag
 """
+    bluePossesion = False
+    goldPossesion = False
+    bronzeSword = False
+    steelSword = False
 
 roomNumber = 2          # Starting room
 endKey = False
